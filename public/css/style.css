@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-form input {
+    padding: 9px 4px;
+    margin-bottom: 10px;
+}
+
+.login-form label {
+
+    color: antiquewhite;
+    display: block;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form button {
+    margin-left: 55px;
+    background-color: cadetblue;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+
+.logo {
+    text-align: center;
+    color: blanchedalmond;
+
+}
+
+.home-top {
+    background-color: aliceblue;
+    padding: 60px 100px;
+
+
+}
+
+.nav-bar1 {
+    padding: 20px;
+    border: #1E88E5 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #1E88E5;
+
+
+}
+
+.nav-bar2 {
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.profile {
+    margin-left: 30%;
+    border: #1E88E5 1px solid;
+
+}
+
+.profile table {
+    text-align: right;
+    border-collapse: collapse;
+}
+
+.profile tr {
+
+    border-bottom: .5px gray solid;
+}
+
+.profile td {
+    text-align: right;
+    /* border: gray 1px solid; */
+
+}
+
+.profile_child {
+    display: flex;
+    gap: 2 0px;
+}
